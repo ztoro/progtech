@@ -25,7 +25,7 @@ public class Bag {
         }
         BagItem bi = getItem(item);
         if (bi == null) {
-            data.add(new BagItem(item, num));
+            this.data.add(new BagItem(item, num));
         } else {
             bi.addNum(num);
         }
