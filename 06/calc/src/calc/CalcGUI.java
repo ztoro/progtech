@@ -35,6 +35,7 @@ public class CalcGUI {
     public CalcGUI(int fieldWidth) {
         frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
         numPanel = new JPanel();
         numPanel.setLayout(new BoxLayout(numPanel, BoxLayout.Y_AXIS));
         operand1 = new JTextField(fieldWidth);

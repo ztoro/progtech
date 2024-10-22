@@ -25,7 +25,7 @@ public class AnimalFarm {
 
     public void read(String filename) throws FileNotFoundException, InvalidInputException {
         Scanner sc = new Scanner(new BufferedReader(new FileReader(filename)));
-        // int numAnimals = sc.nextInt();
+        int numAnimals = sc.nextInt();
         while (sc.hasNext()) {
             Animal animal;
             String kind = sc.next();
