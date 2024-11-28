@@ -5,7 +5,7 @@ Docker https://www.docker.com/products/docker-desktop/ (and Linux subsystem for 
 DataGrip https://www.jetbrains.com/datagrip/download/#section=windows
 
 
-Once the tools above are installed, in the Databases directory (zip that is attached to this post and extracted to a separate folder) run: 
+Once the tools above are installed, with Docker Desktop running, in the Databases directory (zip that is attached to this post and extracted to a separate folder) run: 
 
 
 docker-compose up -d
