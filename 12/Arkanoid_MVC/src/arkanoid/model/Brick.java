@@ -5,16 +5,16 @@
  */
 package arkanoid.model;
 
+import java.awt.Image;
+
 /**
  *
  * @author bli
  */
-public class Point {
-    public float x;
-    public float y;
-
-    public Point(float x, float y) {
-        this.x = x;
-        this.y = y;
-    }        
+public class Brick extends Sprite {
+    
+    public Brick(int x, int y, int width, int height, Image image) {
+        super(x, y, width, height, image);
+    }
+    
 }
