@@ -60,16 +60,16 @@ public class GameEngine extends JPanel {
         return new ImageIcon("data/images/ball.png").getImage();
     }
 
-    public void setLevel(Level level) {
-        this.level = level;
-    }
-
     public void setBall(Ball ball) {
         this.ball = ball;
     }
 
     public void setPaddle(Paddle paddle) {
         this.paddle = paddle;
+    }
+
+    public void setLevel(Level level) {
+        this.level = level;
     }
 
     @Override

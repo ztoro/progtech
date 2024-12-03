@@ -92,11 +92,11 @@ public class ArkanoidController implements KeyListener, ActionListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-        // No action needed
+        // Empty
     }
 
     @Override
     public void keyTyped(KeyEvent e) {
-        // No action needed
+        // Empty
     }
 }
